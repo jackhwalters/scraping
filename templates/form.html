@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Suade scraping with Flask</h2>
+
+<p>Please enter the URL and select the type of text you would like to be ranked</p>    
+
+<form action="/ranked_text" method="GET">
+    	URL to be parsed: <input type="text" name="url">
+    	<br/>
+	<label for="choice">Choose the type of text to be ranked:</label>
+	<select id="text_type" name="text_type">
+		<option value="all">All</option>
+		<option value="bold">Bold</option>
+		<option value="italic">Italic</option>
+	</select>
+	<input type="submit">
+</form>
+
+{% endblock %}
