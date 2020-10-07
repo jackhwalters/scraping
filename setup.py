@@ -11,7 +11,7 @@ except ImportError:
 setup(
     name='scraping',
     version='1.0',
-    description='Python CLI and browser interface for scraping text off websites',
+    description='Python CLI and browser interface for scraping and ranking text off websites',
     author='Jack Walters',
     author_email='jackwalterswork@gmail.com',
     packages=['src'],
