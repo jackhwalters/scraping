@@ -1,4 +1,4 @@
-# Web-Scraper
+# scraping
 Python application written for scraping and ranking text off websites
 
 
